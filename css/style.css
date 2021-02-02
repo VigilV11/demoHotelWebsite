@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 50px;
+  background: rgb(165, 134, 55);
+}
+
+body {
+  background: teal;
+}
+
+.nav-heading {
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  padding: 1% 1%;
+  float: left;
+}
+
+.nav-link {
+  color: white;
+  float: right;
+  list-style: none;
+  padding: 1%;
+}
