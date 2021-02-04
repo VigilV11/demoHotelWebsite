@@ -29,6 +29,10 @@ h3 {
   margin: auto;
 }
 
+.clr {
+  clear: both;
+}
+
 /* Other components */
 
 #nav-header {
@@ -167,4 +171,51 @@ h3 {
 #home-info .info a:hover {
   background: #000;
   color: #fff;
+}
+
+/* FEATURES SECTION */
+
+#features-container {
+}
+
+.feature {
+  width: 33.3333%;
+  float: left;
+}
+
+.feature-header {
+  text-align: center;
+  margin: 30px;
+}
+
+.feature-header img {
+  height: 40px;
+  width: 40px;
+}
+
+.feature-header p {
+  font-size: 0.9rem;
+  padding: 6% 10%;
+}
+
+.feature1 {
+  background: #fff;
+}
+
+.feature2 {
+  background: #f7c08a;
+}
+
+.feature3 {
+  background: #fff;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  background: #333;
+  font-size: 0.8rem;
+  color: white;
+  padding: 30px;
 }
