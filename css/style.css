@@ -53,6 +53,10 @@ h3 {
   color: white;
 }
 
+#nav-header h1 a span {
+  color: #f7c08a;
+}
+
 #nav-header ul {
   float: right;
 }
@@ -175,9 +179,6 @@ h3 {
 
 /* FEATURES SECTION */
 
-#features-container {
-}
-
 .feature {
   width: 33.3333%;
   float: left;
@@ -214,7 +215,7 @@ h3 {
 
 footer {
   text-align: center;
-  background: #333;
+  background: #444;
   font-size: 0.8rem;
   color: white;
   padding: 30px;
@@ -296,4 +297,98 @@ footer {
   line-height: 1rem;
   color: #333;
   padding: 15px;
+}
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* CONTACT PAGE */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+/* CONTACT FORM */
+#contact-form {
+  margin: 4%;
+}
+
+#contact-form h2 {
+  margin-bottom: -10px;
+  font-size: 2rem;
+}
+
+#contact-form h2 span {
+  color: #f7c08a;
+}
+
+#contact-form p {
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+}
+
+.form-block {
+  margin: 8px 0;
+}
+
+.form-block label {
+  display: block;
+  font-size: 0.7rem;
+}
+
+.form-block input {
+  display: block;
+  width: 50%;
+  height: 24px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 1%;
+}
+
+#contact-form textarea {
+  display: block;
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 1%;
+}
+
+#contact-form button {
+  margin-top: 25px;
+  display: block;
+  padding: 8px 12px;
+  background: #333;
+  color: white;
+  border: none;
+}
+
+#contact-form button:hover {
+  background: #f7c08a;
+  color: #333;
+  cursor: pointer;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+
+/* CONTACT ICONS */
+.icon {
+  width: 33.3333%;
+  float: left;
+  background: #333;
+  color: white;
+}
+
+.icon-header {
+  text-align: center;
+  margin: 30px;
+}
+
+.icon-header img {
+  height: 40px;
+  width: 40px;
+}
+
+.icon-header p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  padding: 6% 10%;
 }
