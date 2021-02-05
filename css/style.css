@@ -219,3 +219,81 @@ footer {
   color: white;
   padding: 30px;
 }
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* ABOUT PAGE */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+.about-info {
+  height: 300px;
+  text-align: center;
+}
+
+.about-text {
+  width: 600px;
+  padding: 40px 6%;
+  margin-left: 40px;
+}
+
+.about-text h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about-text h2 span {
+  color: #f7c08a;
+}
+
+.about-text p {
+  font-size: 0.9rem;
+}
+
+.about-info img {
+  width: 360px;
+  height: 220px;
+  float: right;
+  box-shadow: 4px 12px 14px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin: 40px 120px;
+}
+
+/* TESTIMONIALS SECTION */
+
+#testimonials {
+  background-image: url('../img/test-bg.jpg');
+  background-size: cover;
+  height: 600px;
+  position: relative;
+}
+
+#testimonials h2 {
+  padding-top: 6%;
+  color: white;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.testimonial-block {
+  height: 80px;
+  width: 600px;
+  background: rgba(255, 127, 80, 0.9);
+  margin: 0 auto;
+  margin-bottom: 60px;
+  border-radius: 7px;
+}
+
+.testimonial-block img {
+  height: 90%;
+  border-radius: 50%;
+  float: left;
+  margin: 4px 3px;
+  margin-right: 3%;
+}
+
+.testimonial-block p {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: #333;
+  padding: 15px;
+}
